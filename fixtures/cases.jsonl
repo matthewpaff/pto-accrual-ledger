@@ -1,0 +1,1 @@
+{"description": "credit integer-minute accrual for one calendar month", "expected": {"closing_minutes": 60, "months": [{"closing_minutes": 60, "earned_minutes": 60, "month": "2019-01-01", "used_minutes": 0}]}, "id": "pto-0000", "input": {"cap_minutes": 10000, "earn_minutes": 60, "opening_minutes": 0, "start_month": "2019-01-01", "used_minutes": [0]}}
