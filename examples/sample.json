@@ -1,0 +1,9 @@
+{
+  "start_month": "2019-01-01",
+  "opening_minutes": 0,
+  "earn_minutes": 60,
+  "cap_minutes": 10000,
+  "used_minutes": [
+    0
+  ]
+}
