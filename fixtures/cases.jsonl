@@ -356,3 +356,4 @@
 {"description": "preserve opening balance when no months are requested", "expected": {"closing_minutes": 355, "months": []}, "id": "pto-0355", "input": {"cap_minutes": 10000, "earn_minutes": 415, "opening_minutes": 355, "start_month": "2019-01-01", "used_minutes": []}}
 {"description": "reject usage that exceeds the available balance", "expected_error": true, "id": "pto-0356", "input": {"cap_minutes": 10000, "earn_minutes": 416, "opening_minutes": 0, "start_month": "2019-01-01", "used_minutes": [10001]}}
 {"description": "require a first-of-month start date", "expected_error": true, "id": "pto-0357", "input": {"cap_minutes": 10000, "earn_minutes": 417, "opening_minutes": 0, "start_month": "2019-01-15", "used_minutes": [0]}}
+{"description": "reject boolean monthly usage values", "expected_error": true, "id": "pto-0358", "input": {"cap_minutes": 10000, "earn_minutes": 418, "opening_minutes": 0, "start_month": "2019-01-01", "used_minutes": [true]}}
